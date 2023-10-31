@@ -25,9 +25,9 @@ const Hero = () => {
 
     window.addEventListener("scroll", () => {
       if (window.scrollY === 0 && window.scrollX === 0) {
-        sectionRef.current.style.marginTop = "8.4375rem"
+        sectionRef.current.style.marginTop = "8.4375rem";
       } else {
-        sectionRef.current.style.marginTop = "5.625rem"
+        sectionRef.current.style.marginTop = "5.625rem";
       }
     });
   });
@@ -115,7 +115,10 @@ const Hero = () => {
   }
 
   return (
-    <section ref={sectionRef} className="h-[31.25rem] mt-[8.4375rem] overflow-hidden relative">
+    <section
+      ref={sectionRef}
+      className="h-[31.25rem] mt-[8.4375rem] overflow-hidden relative"
+    >
       <div ref={carouselRef} className="carousel h-full w-full duration-500">
         <div
           ref={hero1Ref}
@@ -143,11 +146,11 @@ const Hero = () => {
           className="text-white absolute w-full h-full translate-x-[100%] flex items-center justify-center"
         >
           <video
-            src={hero2}
             playsInline
             autoPlay
             muted
             loop
+            src={hero2}
             className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover z-[-1]"
           ></video>
           <div className="text-center">
