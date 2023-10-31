@@ -1,0 +1,50 @@
+.scale-in-hor-center {
+  -webkit-animation: scale-in-hor-center 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.active {
+  height: 6px !important;
+  background: white !important;
+  border-radius: 50px !important;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+
+.slick-dots li button::before {
+  font-size: 16px !important;
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}

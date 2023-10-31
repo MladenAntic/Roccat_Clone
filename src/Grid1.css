@@ -1,0 +1,26 @@
+.grid1 {
+  grid-template-areas:
+    "titan-switches creators"
+    "titan-switches certified-refurbished";
+}
+
+@media screen and (max-width: 768px) {
+  .grid1 {
+    grid-template-areas:
+      "titan-switches"
+      "creators"
+      "certified-refurbished";
+  }
+}
+
+.titan-switches {
+  grid-area: titan-switches;
+}
+
+.creators {
+  grid-area: creators;
+}
+
+.certified-refurbished {
+  grid-area: certified-refurbished;
+}

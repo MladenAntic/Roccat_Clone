@@ -1,0 +1,26 @@
+.grid2 {
+  grid-template-areas:
+    "wallpapers spellbound"
+    "stellar-wireless spellbound";
+}
+
+@media screen and (max-width: 768px) {
+  .grid2 {
+    grid-template-areas:
+      "spellbound"
+      "wallpapers"
+      "stellar-wireless";
+  }
+}
+
+.wallpapers {
+  grid-area: wallpapers;
+}
+
+.stellar-wireless {
+  grid-area: stellar-wireless;
+}
+
+.spellbound {
+  grid-area: spellbound;
+}
