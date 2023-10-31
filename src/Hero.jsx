@@ -147,11 +147,11 @@ const Hero = () => {
         >
           <video
             className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover"
-            playsInline
-            muted
-            loop
+            playsInline={true}
+            muted={true}
+            loop={true}
             src={hero2}
-            autoPlay
+            autoPlay={true}
           ></video>
           <div className="text-center z-[5]">
             <h1 className="text-[4rem] font-light leading-tight max-lg:text-[3rem] max-md:text-[2.5rem]">
