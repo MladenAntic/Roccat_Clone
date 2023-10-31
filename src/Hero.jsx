@@ -2,11 +2,8 @@ import React, { useEffect, useRef } from "react";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import hero1 from "./assets/hero1.webp";
-// import hero2 from "./assets/hero2.mp4";
+import hero2 from "./assets/hero2.mp4";
 import hero3 from "./assets/hero3.webp";
-
-let hero2Video =
-  "https://cdn.shopify.com/videos/c/o/v/9e01e47967ee4816b8b866908fbd498a.mp4";
 
 const Hero = () => {
   const sectionRef = useRef(null);
@@ -155,7 +152,7 @@ const Hero = () => {
             loop
             className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover z-[-1]"
           >
-            <source src={hero2Video} type="video/mp4" />
+            <source src={hero2} type="video/mp4" />
           </video>
           <div className="text-center">
             <h1 className="text-[4rem] font-light leading-tight max-lg:text-[3rem] max-md:text-[2.5rem]">
