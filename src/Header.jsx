@@ -212,19 +212,19 @@ const Header = () => {
               <div className="max-lg:hidden">
                 <ExpandMoreIcon />
               </div>
-              <div className="mobile-arrow-right hidden max-lg:block">
+              <div className="hidden max-lg:block">
                 <ChevronRightIcon />
               </div>
 
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
 
-              <div ref={productsDropdownRef} className="hidden">
+              <div ref={productsDropdownRef} className="absolute hidden">
                 <ProductsDropdown />
               </div>
             </li>
             <li className="navItem relative max-lg:w-full hover:text-gray-400">
               <a href="#">Setups</a>
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
             </li>
             <li
               ref={technologyRef}
@@ -234,13 +234,13 @@ const Header = () => {
               <div className="max-lg:hidden">
                 <ExpandMoreIcon />
               </div>
-              <div className="mobile-arrow-right hidden max-lg:block">
+              <div className="hidden max-lg:block">
                 <ChevronRightIcon />
               </div>
 
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
 
-              <div ref={technologyDropdownRef} className="hidden">
+              <div ref={technologyDropdownRef} className="absolute hidden">
                 <TechnologyDropdown />
               </div>
             </li>
@@ -252,23 +252,23 @@ const Header = () => {
               <div className="max-lg:hidden">
                 <ExpandMoreIcon />
               </div>
-              <div className="mobile-arrow-right hidden max-lg:block">
+              <div className="hidden max-lg:block">
                 <ChevronRightIcon />
               </div>
 
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
 
-              <div ref={downloadsDropdownRef} className="hidden">
+              <div ref={downloadsDropdownRef} className="absolute hidden">
                 <DownloadsDropdown />
               </div>
             </li>
             <li className="navItem relative max-lg:w-full hover:text-gray-400">
               <a href="#">Creators</a>
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
             </li>
             <li className="navItem relative max-lg:w-full hover:text-gray-400">
               <a href="#">Blog</a>
-              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem]"></div>
+              <div className="scale-in-hor-center underline absolute w-full h-[0.3125rem] bg-white bottom-[-1.9375rem] hidden max-xl:bottom-[-2.0625rem] max-lg:hidden"></div>
             </li>
           </ul>
 
@@ -300,7 +300,10 @@ const Header = () => {
           >
             Support
           </a>
-          <hr ref={horizontalRuleRef} className="hidden bg-black h-[0.3125rem]" />
+          <hr
+            ref={horizontalRuleRef}
+            className="hidden bg-black h-[0.3125rem]"
+          />
 
           <ul
             ref={mobileLinks2Ref}

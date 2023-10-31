@@ -146,15 +146,14 @@ const Hero = () => {
           className="text-white absolute w-full h-full translate-x-[100%] flex items-center justify-center"
         >
           <video
+            className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover"
             playsInline
-            autoPlay
             muted
             loop
-            className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover z-[-1]"
-          >
-            <source src={hero2} type="video/mp4" />
-          </video>
-          <div className="text-center">
+            src={hero2}
+            autoPlay
+          ></video>
+          <div className="text-center z-[5]">
             <h1 className="text-[4rem] font-light leading-tight max-lg:text-[3rem] max-md:text-[2.5rem]">
               <strong>FREEDOM</strong> TO{" "}
               <strong className="font-bold">PLAY</strong>
