@@ -10,7 +10,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ProductCard from "../components/ProductDropdownCard";
+import ProductCard from "../components/GearCard";
 
 function PreviousArrow(props) {
   const { onClick } = props;
@@ -75,7 +75,9 @@ const Gear = () => {
 
   return (
     <section className="bg-black text-white py-[1.875rem] h-[31.25rem] overflow-hidden max-md:h-[34.375rem]">
-      <h2 className="text-center text-[2.5rem] mb-[2.5rem]">SHOP GAMING GEAR</h2>
+      <h2 className="text-center text-[2.5rem] mb-[2.5rem]">
+        SHOP GAMING GEAR
+      </h2>
 
       <Slider {...settings}>
         <ProductCard image={mice} title="Mice" />
