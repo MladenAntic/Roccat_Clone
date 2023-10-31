@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import hero1 from "../assets/hero1.webp";
-// import hero2 from "../assets/hero2.mp4";
+import hero2 from "../assets/hero2.mp4";
 import hero3 from "../assets/hero3.webp";
 
 const Hero = () => {
@@ -152,13 +152,8 @@ const Hero = () => {
             muted
             loop
             autoPlay
-          >
-            <source
-              src="https://cdn.shopify.com/videos/c/o/v/9e01e47967ee4816b8b866908fbd498a.mp4"
-              type="video/mp4"
-              preload="auto"
-            />
-          </video>
+            src={hero2}
+          ></video>
           <div className="text-center z-[5]">
             <h1 className="text-[4rem] font-light leading-tight max-lg:text-[3rem] max-md:text-[2.5rem]">
               <strong>FREEDOM</strong> TO{" "}
