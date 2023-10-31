@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import hero1 from "./assets/hero1.webp";
-// import hero2 from "./assets/hero2.mp4";
-import hero3 from "./assets/hero3.webp";
+import hero1 from "../assets/hero1.webp";
+import hero2 from "../assets/hero2.mp4";
+import hero3 from "../assets/hero3.webp";
 
 const Hero = () => {
   const sectionRef = useRef(null);
@@ -150,7 +150,7 @@ const Hero = () => {
             playsInline
             muted
             loop
-            src="https://cdn.shopify.com/videos/c/o/v/9e01e47967ee4816b8b866908fbd498a.mp4"
+            src={hero2}
             autoPlay
           ></video>
           <div className="text-center z-[5]">

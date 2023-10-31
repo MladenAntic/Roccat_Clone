@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import "./Grid2.css";
-import wallpapers from "./assets/wallpapers.webp";
-import stellarWireless from "./assets/stellar-wireless.webp";
-import spellbound from "./assets/spellbound.avif";
+import wallpapers from "../assets/wallpapers.webp";
+import stellarWireless from "../assets/stellar-wireless.webp";
+import spellbound from "../assets/spellbound.avif";
 
 const Grid2 = () => {
   const wallpapersRef = useRef(null);

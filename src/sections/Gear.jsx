@@ -1,16 +1,16 @@
 import React from "react";
-import mice from "./assets/mice.webp";
-import keyboards from "./assets/keyboards.webp";
-import mousepads from "./assets/mousepads.webp";
-import headsets from "./assets/headsets.webp";
-import streaming from "./assets/streaming.webp";
-import refurbished from "./assets/refurbished.webp";
+import mice from "../assets/mice.webp";
+import keyboards from "../assets/keyboards.webp";
+import mousepads from "../assets/mousepads.webp";
+import headsets from "../assets/headsets.webp";
+import streaming from "../assets/streaming.webp";
+import refurbished from "../assets/refurbished.webp";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ProductCard from "./components/GearCard";
+import ProductCard from "../components/ProductDropdownCard";
 
 function PreviousArrow(props) {
   const { onClick } = props;

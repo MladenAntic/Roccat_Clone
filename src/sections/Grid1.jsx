@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./Grid1.css";
-import titanSwitches from "./assets/titan-switches.webp";
-import creators from "./assets/creators.avif";
-import certifiedRefurbished from "./assets/certified-refurbished.webp";
+import titanSwitches from "../assets/titan-switches.webp";
+import creators from "../assets/creators.avif";
+import certifiedRefurbished from "../assets/certified-refurbished.webp";
 
 const Grid1 = () => {
   const titanSwitchesRef = useRef(null);

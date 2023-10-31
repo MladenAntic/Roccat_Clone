@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import "./Reviews.css";
-import reviewsBg from "./assets/reviews-bg.webp";
-import review1Img from "./assets/review-1-img.avif";
-import review2Img from "./assets/review-2-img.webp";
-import review3Img from "./assets/review-3-img.webp";
-import review4Img from "./assets/review-4-img.webp";
-import trophey from "./assets/trophey.webp";
+import reviewsBg from "../assets/reviews-bg.webp";
+import review1Img from "../assets/review-1-img.avif";
+import review2Img from "../assets/review-2-img.webp";
+import review3Img from "../assets/review-3-img.webp";
+import review4Img from "../assets/review-4-img.webp";
+import trophey from "../assets/trophey.webp";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import "animate.css";

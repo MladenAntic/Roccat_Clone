@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import usLangCard from "./assets/us-lang-card.png";
+import usLangCard from "../assets/us-lang-card.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "animate.css";
-import logo from "./assets/logo.svg";
+import logo from "../assets/logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
@@ -10,11 +10,11 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import Preheader from "./components/Preheader";
-import ProductsDropdown from "./dropdowns/ProductsDropdown";
-import TechnologyDropdown from "./dropdowns/TechnologyDropdown";
-import DownloadsDropdown from "./dropdowns/DownloadsDropdown";
-import MobileNavItem from "./components/MobileNavItem";
+import Preheader from "../components/Preheader";
+import ProductsDropdown from "../dropdowns/ProductsDropdown";
+import TechnologyDropdown from "../dropdowns/TechnologyDropdown";
+import DownloadsDropdown from "../dropdowns/DownloadsDropdown";
+import MobileNavItem from "../components/MobileNavItem";
 
 const Header = () => {
   const mobileNavRef = useRef(null);

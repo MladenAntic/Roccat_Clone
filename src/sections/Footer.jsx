@@ -1,6 +1,6 @@
 import React from "react";
-import accessibility from "./assets/accessibility.svg";
-import trustmark from "./assets/trustmark.png";
+import accessibility from "../assets/accessibility.svg";
+import trustmark from "../assets/trustmark.png";
 
 const Footer = () => {
   return (

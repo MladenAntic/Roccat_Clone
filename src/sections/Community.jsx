@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
-import thumbsUp from "./assets/thumbs-up.webp";
-import twitter from "./assets/twitter.svg";
-import facebook from "./assets/facebook.svg";
-import instagram from "./assets/instagram.svg";
-import youtube from "./assets/youtube.svg";
-import discord from "./assets/discord.svg";
-import twitch from "./assets/twitch.svg";
-import tiktok from "./assets/tiktok.svg";
-import reddit from "./assets/reddit.svg";
+import thumbsUp from "../assets/thumbs-up.webp";
+import twitter from "../assets/twitter.svg";
+import facebook from "../assets/facebook.svg";
+import instagram from "../assets/instagram.svg";
+import youtube from "../assets/youtube.svg";
+import discord from "../assets/discord.svg";
+import twitch from "../assets/twitch.svg";
+import tiktok from "../assets/tiktok.svg";
+import reddit from "../assets/reddit.svg";
 
 const Community = () => {
   const emailInputRef = useRef(null);

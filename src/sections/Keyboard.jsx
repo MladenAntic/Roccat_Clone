@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import vulcan2Mini from "./assets/vulcan2-mini.jfif";
-import lastChance from "./assets/last-chance.jfif";
+import vulcan2Mini from "../assets/vulcan2-mini.jfif";
+import lastChance from "../assets/last-chance.jfif";
 
 const Keyboard = () => {
 
